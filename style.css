@@ -3,3 +3,17 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+
+.cover {
+	background: #222;
+	color: white;
+	height: 80vh;
+	display: grid;
+	place-content: center;
+}
+
+.cover .title {
+	font-size: 5vw;
+	font-family: monospace;
+}
