@@ -3,3 +3,38 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.navbar {
+	background: white;
+	color: #222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em 5em;
+	border: 1px solid grey;
+	font-family: monospace;
+}
+
+.navbar .logo {
+	font-size: 4em;
+	color: darkred;
+}
+
+.navbar .menu {
+	display: flex;
+	gap: 5em;
+}
+
+.menu li {
+	font-size: 1.2em;
+	list-style: none;
+	font-weight: bold;
+}
+
+.menu li:hover {
+	background: #222;
+	color: white;
+	transition: all 400ms ease;
+	cursor: pointer;
+}
+
