@@ -1,0 +1,33 @@
+.book-container {
+    .book {
+        box-shadow: -3px 3px 5px 3px rgba(0,0,0,0.2);
+        transition: all 400ms ease;
+    }
+
+    .book-button {
+        transition: all 400ms ease;
+    }
+}
+
+.book-container:hover {
+    
+    .book {
+        box-shadow: none;
+        transform: rotate(0deg) scale(1.05);
+    }
+
+    .book-button {
+        transform: scale(1.05);
+    }
+}
+
+.book-container:active {
+    .book {
+        box-shadow: none;
+        transform: rotate(0deg) scale(0.95);
+    }
+
+    .book-button {
+        transform: scale(0.95);
+    }
+}

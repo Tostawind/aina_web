@@ -1,1 +1,37 @@
-<header class=""></header>
+<header class="sticky top-0 z-50 lg:px-8 px-5 py-5 bg-secontary text-white font-bold">
+    <nav class="flex justify-between items-center max-w-7xl mx-auto">
+      <!-- MENU -->
+      <ul class="lg:flex gap-16 hidden">
+          <li>
+              <a href="#home" class="hover:text-black">HOME</a>
+          </li>
+          <li>
+              <a href="#sobre-mi" class="hover:text-black">SOBRE MÍ</a>
+          </li>
+          <li>
+              <a href="" class="hover:text-black">SERVICIOS</a>
+          </li>
+          <li>
+              <a href="" class="hover:text-black">CONTACTO</a>
+          </li>
+      </ul>
+      
+      <!-- BURGER -->
+      <div class="lg:hidden flex">
+        <div class="space-y-1">
+          <span class="block w-8 h-1 bg-white animate-pulse"></span>
+          <span class="block w-8 h-1 bg-white animate-pulse"></span>
+          <span class="block w-8 h-1 bg-white animate-pulse"></span>
+        </div>
+      </div>
+
+      <!-- EBOOK -->
+      <div class="book-container | relative">
+        <div class="book | absolute -top-2 lg:-left-20 -left-12 lg:h-24 h-16 lg:w-16 w-10 border-[3px] border-slate-900 rounded-sm -rotate-12 cursor-pointer overflow-hidden">
+          <img class="h-full w-full object-cover" src="assets/img/libro.png" alt="Libro">
+        </div>
+
+        <button class="book-button | border-b border-red-300 text-red-300 tracking-widest">LIBRO GRATIS</button>
+      </div>
+    </nav>
+  </header>
